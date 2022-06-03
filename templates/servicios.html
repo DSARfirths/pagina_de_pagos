@@ -1,0 +1,110 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<section id="Servicios">
+    <h2>Pagos de servicios</h2>
+    <div class="contenedor_servicios">
+        <div id="sunat">
+            <figure>
+                <a href="https://pagalo.pe/sistema/inicioElegirOperacion.action" target="_blank">
+                    <img src="data/imagenes/sunat.png" alt="Sunat" />
+                </a>
+            </figure>
+        </div>
+        <div id="agua">
+            <figure>
+                <a href="https://www.epsgrau.pe/webpage/oficinavirtual/pagos-digitales/" target="_blank">
+                    <img src="data/imagenes/EPS-Grau.png" alt="Agua" title="EPS-Grau" />
+                </a>
+            </figure>
+        </div>
+        <div id="luz">
+            <figure>
+                <a href="https://servicios.distriluz.com.pe/OficinaVirtual/Suministro/MiPago" target="blank">
+                    <img src="data/imagenes/Enosa.webp" alt="Luz" title="Enosa" />
+                </a>
+            </figure>
+        </div>
+        <div id="claro">
+            <!--Hay que perfeccionar esto-->
+            <figure>
+                <a href="https://mi.claro.com.pe/wps/portal/miclaro" target="blank">
+                    <img src="data/imagenes/Claro-Logo.png" alt="Claro" title="Mi claro" />
+                </a>
+            </figure>
+            <p>
+                <strong>Consejo:</strong><br>
+                Necesitas iniciar seccion en la computadora, si no tiene cuenta creada se la creas
+            </p>
+        </div>
+        <div id="movistar">
+            <!--Hay que perfeccionar esto-->
+            <figure>
+                <a href="https://www.movistar.com.pe/atencion-al-cliente/lugares-y-medios-de-pago" target="blank">
+                    <img src="data/imagenes/movistar-logo.jpg" alt="Movistar" title="Mi recibo Movistar" />
+                </a>
+            </figure>
+            <p>
+                <strong>Consejo:</strong><br>
+                Inicia seccion para pagar el recibo movil pero para pagar cualquier otra cosa
+            </p>
+        </div>
+        <div id="entel">
+            <figure>
+                <a href="https://mi.entel.pe/portal/server.pt?" target="blank">
+                    <img src="data/imagenes/entel.webp" alt="Entel-Recivo" title="Entel" />
+                </a>
+            </figure>
+        </div>
+    </div>
+</section>
+<section id="Videojuegos">
+    <h2>Pagos de Videojuegos</h2>
+    <div class="contenedor_videjuegos">
+        <div id="riot_games">
+            <figure>
+                <a href="data/no_page.html" target="blank">
+                    <img src="data/imagenes/Riot_Games.png" alt="Riot games" title="Centro de pagos Riot Games" />
+                </a>
+            </figure>
+        </div>
+        <div id="garena">
+            <figure>
+                <a href="https://pagostore.com/app" target="blank">
+                    <img src="data/imagenes/garena.png" alt="Garena" title="Centro de pagos de Garena" />
+                </a>
+            </figure>
+        </div>
+        <div id="softnyx">
+            <figure>
+                <a href="https://billing.softnyx.com/Default_Pop.aspx" target="blank">
+                    <img src="data/imagenes/Logo_Softnyx.png" alt="Softnyx" title="Centro de pagos de Softnyx" />
+                </a>
+            </figure>
+        </div>
+        <div id="epic_games">
+            <figure>
+                <a href="data/no_page.html" target="blank">
+                    <img src="data/imagenes/epic-games.webp" alt="Epic Games" title="Centro de pagos de Epic Games" />
+                </a>
+            </figure>
+        </div>
+        <div id="steam">
+            <figure>
+                <a href="data/no_page.html" target="blank">
+                    <img src="data/imagenes/steam.jpg" alt="Steam" title="Centro de pagos de Steam" />
+                </a>
+            </figure>
+        </div>
+    </div>
+</section>
+<section id="Yapes">
+    <h2>Pagos con Yape</h2>
+    <h3>Los pagos por yape solo se hacen por el celular de Diego</h3>
+</section>
+<footer id="Footer">
+    <p>Nada mas que decir, si tiene una sugerencia queja o reclamo puede dejarla aqui:</p>
+    <input id="mensaje" type="text" value="">
+    <button>Enviar</button>
+</footer>
+{% endblock %}

@@ -1,0 +1,103 @@
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+    display: block;
+    background-color: white;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+    color:rgb(0, 51, 56);
+}
+/*Seccion del encabezado*/
+header{
+    display: block;
+    background: rgb(241, 39, 63);
+    width: 100%;
+}
+header h1{
+    text-align: center;
+    padding-top: 10px;
+    margin: auto;
+    width: 60%;
+}
+header nav{
+	width:100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+header nav ul{
+    display: inherit;
+    list-style: none;
+}
+header nav ul li{
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+}
+header nav ul li a {
+    color:rgb(0, 51, 56);
+	display:flex;
+    justify-content: inherit;
+    align-items: inherit;
+	text-decoration:none;
+	padding: 30px;
+    width: 245px;
+    letter-spacing: 0.024em;
+    font-weight: bold;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+header nav ul li a:hover {
+    /* background:#8ae2f8; */
+    color: rgb(248, 248, 248);
+    letter-spacing: 0.035em;
+    font-weight: 1000;
+}
+
+/*Seccion servicios*/
+.contenedor_servicios{
+    width: 80%;
+    margin: 10px auto;
+}
+#servicios{
+    background-color: inherit;
+    display: flex;
+}
+#servicios h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+#servicios img{
+    width: 300px;
+}
+
+/*Seccion videojuegos*/
+.contenedor_videjuegos{
+    width: 80%;
+    margin: 10px auto;
+}
+#videojuegos{
+    background-color: inherit;
+    display: flex;
+}
+#videojuegos h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+#videojuegos img{
+    width:300px;
+}
+
+/*Seccion footer*/
+footer{
+    background-color: gray;
+    height: 200px;
+}
